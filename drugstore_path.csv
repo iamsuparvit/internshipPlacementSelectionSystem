@@ -1,0 +1,246 @@
+code,branch,sex_require1,seat1,sex_require2,seat2
+CEN01,6 สโมสรวัฒนธรรมหญิง,both,2.0,both,2
+CEN02,7 บุญมี ปุรุราชรังสรรค์,both,2.0,,
+CEN03,19 วงศ์สว่าง,male,1.0,male,1
+CEN04,20 ป้อมปราบศัตรูพ่าย,,,both,2
+CEN05,23 สี่พระยา,male,1.0,male,1
+CEN06,24 บางเขน,both,1.0,both,1
+CEN07,25 ห้วยขวาง,both,2.0,,
+CEN08,35 หัวหมาก,,,both,2
+CEN09,37 ประสงค์-สุดสาคร ตู้จินดา,both,2.0,both,2
+CEN10,38 จี๊ด-ทองคำ บำเพ็ญ,,,both,2
+CEN11,39 ราษฎร์บูรณะ,female,2.0,male,2
+CEN12,47 คลองขวาง,,,both,2
+CEN13,48 นาควัชระอุทิศ,male,1.0,,
+CEN14,53 ทุ่งสองห้อง,both,2.0,both,2
+CEN15,55 เตชะสัมพันธ์,both,2.0,,
+CEN16,61 สังวาล ทัสนารมย์,,,both,2
+CEN17,63 สมาคมแต้จิ๋วแห่งประเทศไทย,both,2.0,,
+CEN18,67 ทวีวัฒนา,male,1.0,,
+HPT01,ห้องยาผู้ป่วยนอก มภร.2,both,5.0,both,5
+HPT02,ห้องยาผู้ป่วยนอก มภร.4,both,2.0,both,2
+HPT03,ห้องยา ประกันสังคม,both,2.0,both,2
+HPT04,ห้องยาผู้ป่วยใน,both,2.0,both,2
+CHA01,ศุนย์บริการสุขภาพแห่งจุฬาฯ,both,2.0,both,2
+BKK01,Daytime 101 The third place,both,1.0,both,1
+BKK02,Daytime เพรชบุรี 5,both,1.0,both,1
+BKK03,Daytime เสนานิเวศน์ 1,both,1.0,both,1
+BKK04,Daytime กรุงเทพกรีฑา 7,both,1.0,both,1
+BKK05,Daytime นาคนิวาส 19,both,1.0,both,1
+BKK06,Daytime พระราม 4 (ซอยภูมิจิตร),both,1.0,both,1
+BKK07,Daytime พหลโยธิน 52 แยก 16,both,1.0,both,1
+BKK08,Daytime พัฒนาการ 38,both,1.0,both,1
+BKK09,Daytime รามคำแหง 36,both,1.0,both,1
+BKK10,Daytime หนองใหญ่,both,1.0,both,1
+BKK11,Daytime อ่อนนุช 44 (พึ่งมี 50),both,1.0,both,1
+BKK12,เจริญนคร 28,both,1.0,both,1
+BKK13,เพรชเกษม 65/1,both,1.0,both,1
+BKK14,เพรชบุรี 43/1,both,1.0,both,1
+BKK15,เพิ่มสิน 28,both,1.0,both,1
+BKK16,แฮปปี้แลนด์,both,1.0,both,1
+BKK17,โชคชัย 4 ต.รวมโชค,both,1.0,both,1
+BKK18,คู้บอน 27,both,1.0,both,1
+BKK19,งามวงศ์วาน47,both,1.0,both,1
+BKK20,ทิพวัล ซอย 21,both,1.0,both,1
+BKK21,นาคนิวาส,both,1.0,both,1
+BKK22,ประเสริฐมนูกิจ 44,both,1.0,both,1
+BKK23,พระยาสุเรนทร์9,both,1.0,both,1
+BKK24,พระราม 2 ซอย43,both,1.0,both,1
+BKK25,พัฒนาการ 20,both,1.0,both,1
+BKK26,พัฒนาการ 61,both,1.0,both,1
+BKK27,รังสิต คลอง 3,both,1.0,both,1
+BKK28,รังสิตคลอง 1,both,1.0,both,1
+BKK29,รามอินทรา 21 (พี.พี.เพลส),both,1.0,both,1
+BKK30,รามอินทรา 40,both,1.0,both,1
+BKK31,รามอินทรา 67,both,1.0,both,1
+BKK32,ลาดปลาเค้า 63,both,1.0,both,1
+BKK33,ลาดพร้าว 101,both,1.0,both,1
+BKK34,วัดด่าน 47/2,both,1.0,both,1
+BKK35,ศรีนครินทร์ 26,both,1.0,both,1
+BKK36,สวนสยาม 30,both,1.0,both,1
+BKK37,สามเสน 28,both,1.0,both,1
+BKK38,สุขุมวิท 95,both,1.0,both,1
+BKK39,สุทธิสารวินิจฉัย,both,1.0,both,1
+BKK40,ลำลูกกา คลอง 6 (ตลาดบ้านฟ้า),both,1.0,both,1
+BKK41,คูคต,both,1.0,both,1
+BKK42,สายไหม38/1,both,1.0,both,1
+BKK43,พหลโยธิน 62,both,1.0,both,1
+BKK44,เกษตร-นวมินทร์ (แยกเกษตร),both,1.0,both,1
+PUR01,Pure:Chiangmai Store,both,1.0,both,1
+PUR02,Pure:Chiangrai Store,both,1.0,both,1
+PUR03,Pure:Lampang Store,both,1.0,both,1
+PUR04,Pure:Phrae Store,both,1.0,both,1
+PUR05,Pure:Buriram Store,both,1.0,both,1
+PUR06,Pure:Kalasin Store,both,1.0,both,1
+PUR07,Pure:Khon Kaen 2 Store,both,1.0,both,1
+PUR08,Pure:Khonkean Store,both,1.0,both,1
+PUR09,Pure:Korat 2 Store,both,1.0,both,1
+PUR10,Pure:Kranuan Store,both,1.0,both,1
+PUR11,Pure:Nakhonphanom Store,both,1.0,both,1
+PUR12,Pure:Pakchong Store,both,1.0,both,1
+PUR13,Pure:Phibulmangsaharn Store,both,1.0,both,1
+PUR14,Pure:Roi-et Store,both,1.0,both,1
+PUR15,Pure:Sisaket Store,both,1.0,both,1
+PUR16,Pure:Surin Store,both,1.0,both,1
+PUR17,Pure:Ubonrajthani Store,both,1.0,both,1
+PUR18,Pure:Udonthani Store,both,1.0,both,1
+PUR19,Pure:Bangyai Store,both,1.0,both,1
+PUR20,Pure:Ekamai Store,both,1.0,both,1
+PUR21,Pure:On Nuch Store,both,1.0,both,1
+PUR22,Pure:Pattaya 2 Store,both,1.0,both,1
+PUR23,Pure:Pattaya 3 Store,both,1.0,both,1
+PUR24,Pure:Pattaya Store,both,1.0,both,1
+PUR25,Pure:Huamark Store,both,1.0,both,1
+PUR26,Pure:Ladphrao 2 Store,both,1.0,both,1
+PUR27,Pure:Lamlukka Store,both,1.0,both,1
+PUR28,Pure:Sukhapiban 3 Store,both,1.0,both,1
+PUR29,Pure:Bangna Store,both,1.0,both,1
+PUR30,Pure:Bangplee Store,both,1.0,both,1
+PUR31,Pure:Hatyai(2) Store,both,1.0,both,1
+PUR32,Pure:Hatyai Store,both,1.0,both,1
+PUR33,Pure:Kamala Store,both,1.0,both,1
+PUR34,Pure:Koh Phangan Store,both,1.0,both,1
+PUR35,Pure:Mega Bangna Store,both,1.0,both,1
+PUR36,Pure:Nakorn Sri Thammarat Store,both,1.0,both,1
+PUR37,Pure:Phuket 2 Store,both,1.0,both,1
+PUR38,Pure:Phuket Store,both,1.0,both,1
+PUR39,Pure:Samrong Store,both,1.0,both,1
+PUR40,Pure:Samui Store,both,1.0,both,1
+PUR41,Pure:Samutprakan Store,both,1.0,both,1
+PUR42,Pure:Satun Store,both,1.0,both,1
+PUR43,Pure:Srinakarin Store,both,1.0,both,1
+PUR44,Pure:Su-Ngai Kolok Store,both,1.0,both,1
+PUR45,Pure:Surat Store,both,1.0,both,1
+PUR46,Pure:Aomyai Store,both,1.0,both,1
+PUR47,Pure:Bangbon Store,both,1.0,both,1
+PUR48,Pure:Issaraparp Store,both,1.0,both,1
+PUR49,Pure:Nakornpatom Store,both,1.0,both,1
+PUR50,Pure:Petchburi Store,both,1.0,both,1
+PUR51,Pure:Phetchakasem Store,both,1.0,both,1
+PUR52,Pure:Rama II Store,both,1.0,both,1
+PUR53,Pure:Ratchaburi Store,both,1.0,both,1
+PUR54,Pure:Samutsongkhram Store,both,1.0,both,1
+BTS01,Tha Phae Gate Chiang Mai,both,1.0,both,1
+BTS02,I'M Park Chula,both,1.0,both,1
+BTS03,Sathorn Square,both,1.0,both,1
+BTS04,Samyan Mitrtown,both,1.0,both,1
+BTS05,Q House Lumpini,both,1.0,both,1
+BTS06,Terminal 21 Pattaya,both,1.0,both,1
+BTS07,Central Pattaya Beach G Floor,both,1.0,both,1
+BTS08,CENTRAL EAST VILLE,both,1.0,both,1
+BTS09,Fashion Island 2,both,1.0,both,1
+BTS10,The Mall Bangkapi 2,both,1.0,both,1
+BTS11,MBK 3,both,1.0,both,1
+BTS12,Siam Square2,both,1.0,both,1
+BTS13,Central West Gate,both,1.0,both,1
+BTS14,Central World 4 th Floor,both,1.0,both,1
+BTS15,The Mall Ngamwongwan,both,1.0,both,1
+BTS16,ICS,both,1.0,both,1
+BTS17,Central Ladprao,both,1.0,both,1
+BTS18,SF La Villa,both,1.0,both,1
+BTS19,Exchange Tower,both,1.0,both,1
+BTS20,Terminal 21,both,1.0,both,1
+BTS21,Central Rama9,both,1.0,both,1
+BTS22,Emporium,both,1.0,both,1
+BTS23,Emquatier,both,1.0,both,1
+BTS24,M Sphere (Dec 23),both,1.0,both,1
+BTS25,Fortune Town,both,1.0,both,1
+BTS26,Hun Hin Market Village,both,1.0,both,1
+BTS27,Century Movie Plaza,both,1.0,both,1
+FCN01,ปตท. สุขาภิบาล 2,both,1.0,both,1
+FCN02,พัทยาใต้,both,2.0,both,2
+FCN03,พัทยากลาง,both,2.0,both,2
+FCN04,พัทยาตลาดไร่วนาสินธุ์ จ.ชลบุรี,both,1.0,both,1
+FCN05,พัทยานาเกลือ,both,1.0,both,1
+FCN06,โรบินสัน จันทบุรี,both,2.0,both,2
+FCN07,โรงพยาบาลขอนแก่น,both,2.0,both,2
+FCN08,ข้างรพ.เอกอุดร,both,2.0,both,2
+FCN09,แม็คโครประดิษฐ์มนูธรรม,both,2.0,both,2
+FCN10,ซีเจ มอร์ นวลจันทร์,both,2.0,both,2
+FCN11,พัทยาเทพประสิทธิ์,both,2.0,both,2
+FCN12,แพชชั่น ระยอง,both,1.0,both,1
+FCN13,ปตท.เยื้องรพ.ราชพฤกษ์ ขอนแก่น,both,1.0,both,1
+FCN14,แม็คโครรามคำแหง 24,both,1.0,both,1
+FCN15,ข้างเซ็นทรัลจันทบุรี,both,2.0,both,2
+FCN16,แจส กรีน ประเวศ,both,1.0,both,1
+FCN17,เอ็นจอย รามคำแหง 129,both,1.0,both,1
+FCN18,ข้างโลตัสท่าม่วง,both,2.0,both,2
+FCN19,หน้ารพ.พหลฯ กาญจนบุรี,both,1.0,both,1
+FCN20,หน้ารร.กาญจนานุเคราะห์,both,2.0,both,2
+FCN21,นครปฐม,both,2.0,both,2
+FCN22,ดอนหวาย,both,1.0,both,1
+FCN23,โรงพยาบาลนครปฐม,both,2.0,both,2
+FCN24,คลังสาย 5,both,1.0,both,1
+FCN25,สี่แยกทศกัณฑ์ พุทธมณฑล สาย2,both,1.0,both,1
+FCN26,ปตท.เพชรพระเทพ,both,1.0,both,1
+FCN27,ตรงข้ามแม็คโครศาลายา,both,1.0,both,1
+FCN28,แม็คโครปิ่นเกล้า,both,1.0,both,1
+FCN29,ปตท. สนามเป้า,both,1.0,both,1
+FCN30,สีลม (ละลายทรัพย์),both,2.0,both,2
+FCN31,บางบัวทอง,both,1.0,both,1
+FCN32,งามวงศ์วาน,both,1.0,both,1
+FCN33,บีบีบางใหญ่ 1,both,1.0,both,1
+FCN34,ปตท.บางกรวย-ไทรน้อย,both,1.0,both,1
+FCN35,ถนนธรรมวิถี อุบลราชธานี,both,2.0,both,2
+FCN36,อุบลฯ วารินชำราบ,both,1.0,both,1
+FCN37,หน้า รพ.อุบลรักษ์,both,2.0,both,2
+FCN38,สุขุมวิท 24,both,2.0,both,2
+FCN39,ทองหล่อ หน้ารพ.คามิลเลียน,both,2.0,both,2
+FCN40,ปตท.แจ้งวัฒนะ,both,2.0,both,2
+FCN41,คาลเท็กซ์-ราชพฤกษ์,both,2.0,both,2
+FCN42,ต้นสัก มาร์เก็ต (สนามบินน้ำ),both,2.0,both,2
+FCN43,ซอยวัดพระเงิน,both,1.0,both,1
+FCN44,นครศรีธรรมราช,both,1.0,both,1
+FCN45,ท่าศาลา,both,1.0,both,1
+FCN46,ตลาดซิตี้ มหาราช ซ.10 กระบี่,both,1.0,both,1
+FCN47,ข้าง รพ.ระนอง,both,1.0,both,1
+FCN48,หาดใหญ่,both,1.0,both,1
+FCN49,ตรัง (ตรงข้ามโรบินสันตรัง),both,1.0,both,1
+FCN50,เยื้อง รพ.วชิระภูเก็ต,both,1.0,both,1
+FCN51,ตลาดมรกต 2 จ.ชุมพร,both,1.0,both,1
+FCN52,ช่องเขา หาดใหญ่,both,1.0,both,1
+FCN53,สงขลาบุรี,both,1.0,both,1
+FCN54,หน้ารพ.ตรัง,both,1.0,both,1
+FCN55,ศูนย์ยาเชียงใหม่,both,4.0,both,4
+FCN56,หน้า รพ.ลำปาง,both,1.0,both,1
+FCN57,หน้า รพ.อุตรดิตถ์,both,1.0,both,1
+FCN58,แพร่,both,1.0,both,1
+FCN59,แม่สาย,both,1.0,both,1
+FCN60,เชียงราย,both,2.0,both,2
+FCN61,ข้างแม็คโครแม่สาย,both,2.0,both,2
+FCN62,บ้านดู่,both,1.0,both,1
+FCN63,หน้าด่านแม่สาย,both,1.0,both,1
+FCN64,หน้ารพ.ศรีบุรินทร์ แม่สาย,both,1.0,both,1
+FCN65,พิษณุโลก เยื้อง รพ.กรุงเทพ,both,1.0,both,1
+FCN66,สวนดอก,both,1.0,both,1
+FCN67,ถนนสุเทพ,both,1.0,both,1
+FCN68,ตลาดหนองดอก ลำพูน,both,1.0,both,1
+FCN69,ตลาดหางดง,both,1.0,both,1
+FCN70,กรีนพาร์ค เชียงใหม่,both,1.0,both,1
+FCN71,พัทยานำชัย,both,2.0,both,2
+FCN72,พัทยาเขาตาโล,both,2.0,both,2
+FCN73,กรุงเทพ-พัทยา,both,2.0,both,2
+FCN74,เนินพลับหวาน,both,1.0,both,1
+FCN75,พัทยาเขาน้อย,both,1.0,both,1
+FCN76,ปตท.แหลมฉบัง,both,2.0,both,2
+FCN77,สัตหีบ กม.10,both,2.0,both,2
+FCN78,อมตะ ชลบุรี,both,1.0,both,1
+FCN79,ปตท.บ่อวิน (ชลบุรี),both,2.0,both,2
+FCN80,กรุงเทพ-พัทยา 2,both,2.0,both,2
+FCN81,Caltex นาจอมเทียน-แยกบ้านอำเภอ,both,1.0,both,1
+FCN82,ตรงข้ามเทศบาลเมืองศรีราชา,both,1.0,both,1
+FCN83,ชัยพฤกษ์-จอมเทียน พัทยา,both,2.0,both,2
+FCN84,ปตท. วิภาวดี,both,1.0,both,1
+FCN85,มาร์เก็ตวิลเลจ สุวรรณภูมิ,both,1.0,both,1
+FCN86,แมคโครคลองหลวง,both,2.0,both,2
+FCN87,ปตท.เซียร์ ขาเข้า,both,2.0,both,2
+FCN88,หน้าโลตัสชัยภูมิ,both,1.0,both,1
+FCN89,หัวหิน มาร์เก็ต วิลเลจ,both,2.0,both,2
+FCN90,แยกปราณบุรี,both,1.0,both,1
+FCN91,เดอะมอลล์ ท่าพระ,both,1.0,both,1
+FCN92,รพ.ธรรมศาสตร์เฉลิมพระเกียรติ,both,2.0,both,2
+FCN93,คาลเท็กซ์ ธัญบุรี-รังสิต (คลอง3),both,2.0,both,2
+FCN94,เดอะพร้อม ดินแดง,both,1.0,both,1
+FCN95,บิ๊กซี กรีนเวลท์ พระราม 2,both,1.0,both,1
+FCN96,ศิริราช,both,2.0,both,2
+FCN97,พัทยา,both,4.0,both,4
