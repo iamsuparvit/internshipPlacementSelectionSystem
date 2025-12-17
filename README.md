@@ -1,121 +1,79 @@
-# Internship Placement Selector
+# Internship Placement Selection System
 
-This project is a **Python Jupyter Notebook** (`.ipynb`) that assigns pharmacy students to internship sites based on their ranked preferences, shift (1 or 2), site seat availability, and sex requirements.  
-It was designed to handle **separate shifts** (Shift 1 then Shift 2) with independent seat counts, and runs a **lottery** when sites are oversubscribed.
-
----
+This project is an automated system designed to assign Pharmacy students at **Chulalongkorn University** to internship sites (drugstores/hospitals). It allocates placements based on student preferences (ranked choices), shift availability, and specific site constraints such as seat capacity and gender requirements.
 
 ## Features
-- Input from two CSV files:
-  - **Students file** (`student_path`):
-    ```
-    student_name, student_id, sex, shift, rank 1, rank 2, ..., rank x
-    ```
-    - `sex`: `male` or `female`  
-    - `shift`: `1` or `2`  
-    - `rank i`: internship site code
-  - **Drugstores file** (`drugstore_path`):
-    ```
-    code, branch, sex_require1, seat1, sex_require2, seat2
-    ```
-    - `sex_require1/2`: `male`, `female`, or `both` (for each shift)
-    - `seat1/2`: number of seats for each shift
 
-- Selection rules:
-  - Process **Shift 1 completely first**, then **Shift 2**.  
-  - Iterate ranks from most to least preferred.  
-  - Skip choices if sex does not match site requirement.  
-  - If applicants ≤ seats → all assigned.  
-  - If applicants > seats → **random lottery per site/shift**.  
-  - Unassigned after last rank → `Not selected`.
+*   **Ranked-Choice Allocation**: Processes student preferences from Rank 1 to Rank X.
+*   **Shift Management**: Handles multiple internship shifts (e.g., Shift 1, Shift 2).
+*   **Constraint Enforcement**:
+    *   **Seat Capacity**: Ensures sites do not exceed their maximum number of students per shift.
+    *   **Gender Requirements**: Respects site-specific requirements (Male only, Female only, or Both).
+*   **Fair Tie-Breaking**: Uses a random lottery system for oversubscribed sites within the same rank and shift.
+*   **Validation & Verification**: Includes comprehensive checks for data integrity, capacity violations, and logic errors.
+*   **Analysis**: Generates summary statistics and visualizations of the allocation results.
 
-- Output:
-  - A CSV file named with current datetime, suffixed `_output.csv`
-  - Columns:
-    ```
-    student_name, student_id, rank_result, result
-    ```
-    - `rank_result`: rank number where student matched (1..x) or `0` if unassigned
-    - `result`: site code or `Not selected`
+## Prerequisites
 
-- Summary statistics printed:
-  - Number of matches at each rank
-  - Number of unassigned students
+*   Python 3.x
+*   Jupyter Notebook
+*   Required Python libraries:
+    *   `pandas`
+    *   `numpy`
+    *   `matplotlib`
 
-- Verification cell (optional):
-  - Checks that assignments respect seats, sex requirements, and student choices.
+## Input Files
 
----
+The system expects two CSV files in the project directory:
 
-## Example
+### 1. Student Selection File (`student_selection.csv`)
+Contains student details and their ranked choices.
+*   **Columns**: `student_name`, `student_id`, `sex`, `shift`, `rank 1`, `rank 2`, ..., `rank x`
+*   **Values**:
+    *   `sex`: `Male`, `Female`
+    *   `shift`: Integer (e.g., `1`, `2`)
+    *   `rank n`: The code of the internship site.
 
-### Example `drugstore_path.csv`
-```csv
-code,branch,sex_require1,seat1,sex_require2,seat2
-CEN01,Central Branch 1,both,2,both,2
-CEN02,Central Branch 2,both,2,, 
-CEN03,Branch 3,male,1,male,1
-````
-
-### Example `student_path.csv`
-
-```csv
-student_name,student_id,sex,shift,rank 1,rank 2,rank 3
-Alice,610001,female,1,CEN01,CEN02,CEN03
-Bob,610002,male,2,CEN03,CEN01,CEN02
-Carol,610003,female,1,CEN02,CEN01,CEN03
-```
-
----
+### 2. Drugstore/Site File (`drugstore_path.csv`)
+Contains details about internship sites, capacities, and requirements.
+*   **Columns**: `code`, `branch`, `sex_require1`, `seat1`, ..., `sex_requireN`, `seatN` (where N is the number of shifts).
+*   **Values**:
+    *   `sex_require{i}`: `Male`, `Female`, `Both`
+    *   `seat{i}`: Integer (number of available seats for shift `i`).
 
 ## Usage
 
-1. Clone this repo and open the notebook in Jupyter Lab/Notebook.
-2. In **Cell 1 – Configuration**, set:
+1.  **Prepare Data**: Ensure `student_selection.csv` and `drugstore_path.csv` are formatted correctly and placed in the project folder.
+2.  **Configure**: Open `internshipPlacementSelectionSystem.ipynb`. In **Cell 1**, you can adjust:
+    *   `x`: Number of ranks per student.
+    *   `SHIFT_ORDER`: Number of shifts to process.
+    *   `random_seed`: Set a seed for reproducible results (optional).
+3.  **Run**: Execute the notebook cells from top to bottom.
+4.  **Results**:
+    *   The system will generate an output CSV in the `output/` directory named with the current timestamp (e.g., `YYYYMMDD_HHMMSS_output.csv`).
+    *   A summary of remaining seats is also saved as `YYYYMMDD_HHMMSS_remaining_seats.csv`.
 
-   * `x` = number of ranked choices (matches student file columns)
-   * `student_path` = path to student CSV
-   * `drugstore_path` = path to drugstore CSV
-   * `output_path` = directory to save results
-   * `random_seed` (optional) for reproducibility
-3. Run all cells.
-4. Results:
+## Allocation Logic
 
-   * Output CSV will be saved in `output_path`.
-   * Summary printed in the notebook.
+1.  **Normalization**: All inputs are normalized (case-insensitive, space trimming).
+2.  **Deduplication**: Duplicate site codes within a single student's rank list are removed (keeping the highest rank).
+3.  **Allocation Loop**:
+    *   Iterate through **Shifts** (1 to N).
+    *   Iterate through **Ranks** (1 to X).
+    *   Identify eligible candidates for each site who have not yet been assigned.
+    *   Check constraints (Sex, Shift, Remaining Seats).
+    *   **Lottery**: If candidates > available seats, a random selection is performed.
+4.  **Unassigned Students**: Students not matched after all ranks are processed are marked as "Not selected".
 
----
+## Output
 
-## Verification
-
-After running the selection, execute the **Verification Checks** cell to ensure:
-
-* All assigned students get one of their selected ranks.
-* No site exceeds its seat capacity.
-* Sex requirements are respected.
-* No student is assigned more than once.
-
----
-
-## Requirements
-
-* Python 3.8+
-* Libraries:
-
-  * pandas
-  * numpy
-
-Install with:
-
-```bash
-pip install pandas numpy
-```
-
----
+The output file contains the original student data plus:
+*   `rank_result`: The rank number they were assigned (0 if not selected).
+*   `result`: The code of the assigned site (or "Not selected").
 
 ## License
 
-MIT License
-Created by Suparvit P., RxCU
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+*Developed for Chulalongkorn University Pharmacy Internship Placement.*
