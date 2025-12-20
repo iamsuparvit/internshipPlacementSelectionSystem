@@ -2,7 +2,7 @@
 
 This project is an automated system designed to assign pharmacy students at Chulalongkorn University to internship sites (drugstores/hospitals). It allocates placements based on student preferences (ranked choices), shift availability, and specific site constraints such as seat capacity and gender requirements.
 
-[Click here to view the PDF presentation](internshipPlacementSelectionSystem.pdf)
+[Click here to view the PDF presentation](internshipPlacementSelectionSystemPresentation.pdf)
 
 ## Features
 
